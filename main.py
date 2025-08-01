@@ -8,7 +8,7 @@ import asyncio
 
 app = FastAPI()
 
-EXPECTED_API_KEY = "qwerty"
+EXPECTED_API_KEY = "f131e686c01aea388caf13f15e5847bb42fdbf73efd9cc03d1ed744bf9a0845c"
 
 class HackRxRequest(BaseModel):
     documents: str
